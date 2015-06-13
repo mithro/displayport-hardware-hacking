@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name display_port)(type KiCad)(uri ${KIPRJMOD}/../libraries/display_port.pretty)(options "")(descr ""))
+)
