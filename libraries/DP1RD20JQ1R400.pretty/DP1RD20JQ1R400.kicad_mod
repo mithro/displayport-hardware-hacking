@@ -1,5 +1,5 @@
-(module Display_Port (layer F.Cu) (tedit 5548A98F)
-  (descr "Display Port 1.1a")
+(module DP1RD20JQ1R400 (layer F.Cu) (tedit 5548A98F)
+  (descr "Display Port Receptacle - Surface Mount, Right Angle Horizontal")
   (tags 670-2589-1-ND)
   (fp_text reference J8 (at 10.06348 4.03352) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.254)))
