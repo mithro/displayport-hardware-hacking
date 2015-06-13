@@ -34,11 +34,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "DisplayPort AUX Signals Interceptor Board"
 Date ""
 Rev ""
-Comp ""
-Comment1 ""
+Comp "Author: Tim 'mithro' Ansell"
+Comment1 "License: CC-BY-SA 4.0 International"
 Comment2 ""
 Comment3 ""
 Comment4 ""
