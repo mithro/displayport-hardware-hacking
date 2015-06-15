@@ -9,3 +9,7 @@ Also known as;
 [Digi-Key Purchase Link](http://www.digikey.com.au/product-detail/en/2040210-1/A99344-ND/1930791)
 
 ![Image](./2040210-1.JPG)
+
+This part was created by [Ryan Karl](https://github.com/brightcloudy) and is
+released under 
+[CC-BY-SA 4.0 license](http://creativecommons.org/licenses/by-sa/4.0/).
