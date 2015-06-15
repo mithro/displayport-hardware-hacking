@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /usr/local/google/home/tansell/foss/timvideos/displayport-hardware-hacking/dp-aux-intercept/dp-aux-intercept.sch)
-    (date "Mon 15 Jun 2015 03:00:00 PM AEST")
+    (date "Mon 15 Jun 2015 03:06:01 PM AEST")
     (tool "Eeschema 0.201506030104+5696~23~ubuntu14.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -23,7 +23,7 @@
       (tstamp 557BFC21))
     (comp (ref PAUX2)
       (value CONN_02X06)
-      (footprint Pin_Headers:Pin_Header_Straight_2x06)
+      (footprint Pin_Headers:Pin_Header_Angled_2x06)
       (libsource (lib conn) (part CONN_02X06))
       (sheetpath (names /) (tstamps /))
       (tstamp 557C0005))
@@ -161,7 +161,7 @@
       (tstamp 557C6A13))
     (comp (ref PAUX1)
       (value CONN_02X06)
-      (footprint Pin_Headers:Pin_Header_Straight_2x06)
+      (footprint Pin_Headers:Pin_Header_Angled_2x06)
       (libsource (lib conn) (part CONN_02X06))
       (sheetpath (names /) (tstamps /))
       (tstamp 557C3653))

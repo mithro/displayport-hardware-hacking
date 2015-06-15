@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201506030104+5696~23~ubuntu14.04.1-product   date = Mon 15 Jun 2015 02:58:45 PM AEST
+Cmp-Mod V01 Created by Cvpcb 0.201506030104+5696~23~ubuntu14.04.1-product   date = Mon 15 Jun 2015 03:05:39 PM AEST
 
 BeginCmp
 TimeStamp = /557C4D19;
@@ -43,29 +43,64 @@ IdModule  = 2040204-1:2040210-1;
 EndCmp
 
 BeginCmp
+TimeStamp = /557C472B;
+Reference = JCAUXN1;
+ValeurCmp = CONN_01X03;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /557C4637;
+Reference = JCAUXP1;
+ValeurCmp = CONN_01X03;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /557C2606;
-Reference = J1;
+Reference = JCCFG1;
 ValeurCmp = CONN_02X03;
 IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /557C78A7;
+Reference = JDAUXN1;
+ValeurCmp = CONN_01X03;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /557C78A1;
+Reference = JDAUXP1;
+ValeurCmp = CONN_01X03;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /557C1F39;
-Reference = J2;
+Reference = JDCFG1;
 ValeurCmp = CONN_02X03;
 IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
 EndCmp
 
 BeginCmp
-TimeStamp = /557C0005;
+TimeStamp = /557C3653;
 Reference = PAUX1;
 ValeurCmp = CONN_02X06;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x06;
+IdModule  = Pin_Headers:Pin_Header_Angled_2x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /557C0005;
+Reference = PAUX2;
+ValeurCmp = CONN_02X06;
+IdModule  = Pin_Headers:Pin_Header_Angled_2x06;
 EndCmp
 
 BeginCmp
 TimeStamp = /557C0681;
-Reference = PCONF1;
+Reference = PCFG1;
 ValeurCmp = CONN_02X06;
 IdModule  = Pin_Headers:Pin_Header_Straight_2x06;
 EndCmp
