@@ -25,3 +25,19 @@ The hot plug and config lines can be mapped to CMOS pins.
  - [ ] Create a HSMC compatible PCB template with holes and stuff.
  - [ ] Generate the schematic for the board.
  - [ ] Layout the board.
+
+You can find the HSMC specification
+[here](https://www.altera.com/content/dam/altera-www/global/en_US/pdfs/literature/ds/hsmc_spec.pdf).
+
+The HSMC specification suggests three different connectors for making a
+Mezzanine card, but only the
+[QTH-090-01-L-D-A](http://www.digikey.com/product-detail/en/QTH-090-01-L-D-A/SAM8193-ND/1106537)
+variant seems to be easily available from Digikey. When using this connector
+the HSMC spec says;
+
+> QTH family connector with three banks. The difference between this connector
+> and the ASP version is that all pins are populated in bank 1 of the
+> connector. This difference equates to slightly lower signal integrity in that
+> bank which typically carries multi-GHz clock-data-recovery signals. It is
+> recommended that you do not leave the undefined pins in bank 1 floating;
+> ground them or tie them to power. This connector has 192 physical pins.
