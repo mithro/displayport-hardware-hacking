@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name DP1RD20JQ1R400)(type KiCad)(uri ${KIPRJMOD}/../libraries/DP1RD20JQ1R400.pretty)(options "")(descr ""))
+  (lib (name 2040204-1)(type KiCad)(uri ${KIPRJMOD}/../libraries/2040204-1.pretty)(options "")(descr ""))
 )
