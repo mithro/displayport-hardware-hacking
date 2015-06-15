@@ -84,8 +84,8 @@ F 3 "" H 4820 3590 60  0000 C CNN
 $EndComp
 Text Label 2050 2640 0    60   ~ 0
 CAUX_P
-Text Label 2500 5080 0    60   ~ 0
-CAUX_N
+Text Label 2500 5080 0    39   ~ 0
+CAUX1_N
 Text Label 7270 2640 0    60   ~ 0
 DAUX_P
 Text Label 7270 2840 0    60   ~ 0
@@ -737,7 +737,7 @@ F 3 "" H 2840 4700 60  0000 C CNN
 	1    2840 4700
 	0    -1   -1   0   
 $EndComp
-Text Notes 2780 4200 0    60   ~ 0
+Text Notes 2710 4130 0    60   ~ 0
 DisplayPort Sink\n    Biasing
 Text Notes 760  930  0    60   ~ 0
 Connected to a DisplayPort source\n(Such as a Computer)
@@ -751,8 +751,8 @@ Wire Wire Line
 Connection ~ 3990 4840
 Wire Wire Line
 	2480 2640 2480 4340
-Text Label 2500 4340 0    60   ~ 0
-CAUX_P
+Text Label 2500 4340 0    39   ~ 0
+CAUX1_P
 $Comp
 L VDD #PWR08
 U 1 1 557C7B04
@@ -820,11 +820,11 @@ Connection ~ 5660 4840
 Wire Wire Line
 	5700 4740 5700 4540
 Connection ~ 5700 4540
-Text Label 6860 4340 0    60   ~ 0
-DAUX_P
-Text Label 6860 5080 0    60   ~ 0
-DAUX_N
-Text Notes 6110 4210 0    60   ~ 0
+Text Label 6860 4340 0    39   ~ 0
+DAUX1_P
+Text Label 6860 5080 0    39   ~ 0
+DAUX1_N
+Text Notes 6220 4170 0    60   ~ 0
 DisplayPort Source\n      Biasing
 Connection ~ 7630 3040
 Connection ~ 2010 3040
@@ -1039,4 +1039,12 @@ Text Label 5110 3840 0    60   ~ 0
 DHPD
 Text Label 4290 3840 0    60   ~ 0
 CHPD
+Text Label 3480 4340 1    39   ~ 0
+CAUX2_P
+Text Label 3490 5080 3    39   ~ 0
+CAUX2_N
+Text Label 6180 5080 3    39   ~ 0
+DAUX2_N
+Text Label 6170 4340 1    39   ~ 0
+DAUX2_P
 $EndSCHEMATC
