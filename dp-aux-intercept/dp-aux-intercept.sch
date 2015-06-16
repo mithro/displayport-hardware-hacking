@@ -71,17 +71,6 @@ Text Label 4600 2140 0    60   ~ 0
 ML3_P
 Text Label 4600 2230 0    60   ~ 0
 ML3_N
-$Comp
-L CONN_02X06 PAUX2
-U 1 1 557C0005
-P 4820 4790
-F 0 "PAUX2" H 4820 5140 50  0000 C CNN
-F 1 "CONN_02X06" H 4820 4440 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x06" H 4820 3590 60  0001 C CNN
-F 3 "" H 4820 3590 60  0000 C CNN
-	1    4820 4790
-	1    0    0    -1  
-$EndComp
 Text Label 2050 2640 0    60   ~ 0
 CAUX_P
 Text Label 2500 5080 0    39   ~ 0
@@ -431,9 +420,9 @@ Wire Wire Line
 Wire Wire Line
 	5070 4940 5290 4940
 Wire Wire Line
-	5290 5130 5290 4940
+	5290 4940 5290 5130
 Wire Wire Line
-	4350 5130 5290 5130
+	5290 5130 4350 5130
 Wire Wire Line
 	1940 2640 2480 2640
 Wire Wire Line
@@ -515,7 +504,7 @@ Wire Wire Line
 Wire Wire Line
 	5060 2640 6650 2640
 Wire Wire Line
-	5390 2640 5390 3840
+	5390 2640 5390 4340
 Wire Wire Line
 	5390 3020 5570 3020
 Wire Wire Line
@@ -554,7 +543,7 @@ Wire Wire Line
 Wire Wire Line
 	3430 3160 3340 3160
 Wire Wire Line
-	4180 2640 4180 3840
+	4180 2640 4180 4340
 Wire Wire Line
 	4180 3020 4000 3020
 Wire Wire Line
@@ -562,9 +551,9 @@ Wire Wire Line
 Wire Wire Line
 	2930 2640 4560 2640
 Wire Wire Line
-	5290 3030 5290 2840
+	5290 2840 5290 3030
 Wire Wire Line
-	4340 3030 5290 3030
+	5290 3030 4340 3030
 Wire Wire Line
 	4340 3030 4340 2840
 Wire Wire Line
@@ -601,7 +590,7 @@ Wire Wire Line
 	3340 4340 3340 4370
 Connection ~ 3340 4340
 Wire Wire Line
-	3270 5080 3650 5080
+	3990 5080 3270 5080
 Wire Wire Line
 	3340 5080 3340 5040
 Connection ~ 3340 5080
@@ -700,7 +689,7 @@ Wire Wire Line
 	6750 5080 6750 5040
 Connection ~ 6750 5080
 Wire Wire Line
-	5990 5080 6380 5080
+	5660 5080 6380 5080
 Wire Wire Line
 	6300 5080 6300 5040
 Connection ~ 6300 5080
@@ -747,7 +736,7 @@ Wire Wire Line
 	3930 4740 3930 4540
 Connection ~ 3930 4540
 Wire Wire Line
-	3990 4640 3990 5280
+	3990 4640 3990 5080
 Connection ~ 3990 4840
 Wire Wire Line
 	2480 2640 2480 4340
@@ -815,7 +804,7 @@ $EndComp
 Wire Wire Line
 	4550 5040 4570 5040
 Wire Wire Line
-	5660 4640 5660 5280
+	5660 4640 5660 5080
 Connection ~ 5660 4840
 Wire Wire Line
 	5700 4740 5700 4540
@@ -878,166 +867,69 @@ Wire Wire Line
 	7710 3140 7690 3140
 Wire Wire Line
 	5070 5040 5090 5040
-$Comp
-L CONN_02X06 PAUX1
-U 1 1 557C3653
-P 4820 3790
-F 0 "PAUX1" H 4820 4140 50  0000 C CNN
-F 1 "CONN_02X06" H 4820 3440 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x06" H 4820 2590 60  0001 C CNN
-F 3 "" H 4820 2590 60  0000 C CNN
-	1    4820 3790
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X03 JCAUXP1
-U 1 1 557C4637
-P 3850 4340
-F 0 "JCAUXP1" V 3950 4340 50  0000 C CNN
-F 1 "CONN_01X03" V 3950 4340 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 3850 4340 60  0001 C CNN
-F 3 "" H 3850 4340 60  0000 C CNN
-	1    3850 4340
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X03 JCAUXN1
-U 1 1 557C472B
-P 3850 5080
-F 0 "JCAUXN1" V 3950 5080 50  0000 C CNN
-F 1 "CONN_01X03" V 3950 5080 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 3850 5080 60  0001 C CNN
-F 3 "" H 3850 5080 60  0000 C CNN
-	1    3850 5080
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	3650 4440 3650 4540
+	3650 4340 3650 4540
 Wire Wire Line
-	3990 5280 3650 5280
-Wire Wire Line
-	3650 5280 3650 5180
-Wire Wire Line
-	3650 4980 3610 4980
-Wire Wire Line
-	3610 4980 3610 3640
-Wire Wire Line
-	3610 3640 4570 3640
-Wire Wire Line
-	3650 4240 3650 4240
-Wire Wire Line
-	3650 4240 3650 3540
-Wire Wire Line
-	3650 3540 4570 3540
-Text Label 3770 3540 0    60   ~ 0
-CAUX1_P
-Text Label 3770 3640 0    60   ~ 0
-CAUX1_N
-$Comp
-L CONN_01X03 JDAUXP1
-U 1 1 557C78A1
-P 5790 4340
-F 0 "JDAUXP1" V 5880 4340 50  0000 C CNN
-F 1 "CONN_01X03" V 5890 4340 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 5790 4340 60  0001 C CNN
-F 3 "" H 5790 4340 60  0000 C CNN
-	1    5790 4340
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X03 JDAUXN1
-U 1 1 557C78A7
-P 5790 5080
-F 0 "JDAUXN1" V 5880 5080 50  0000 C CNN
-F 1 "CONN_01X03" V 5890 5080 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 5790 5080 60  0001 C CNN
-F 3 "" H 5790 5080 60  0000 C CNN
-	1    5790 5080
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5990 4540 5990 4440
-Wire Wire Line
-	5990 5180 5990 5280
-Wire Wire Line
-	5990 4980 6030 4980
-Wire Wire Line
-	6030 4980 6030 3640
-Wire Wire Line
-	6030 3640 5070 3640
-Wire Wire Line
-	5990 4240 5990 4240
-Wire Wire Line
-	5990 4240 5990 3540
-Wire Wire Line
-	5990 3540 5070 3540
-Text Label 5790 3540 2    60   ~ 0
-DAUX1_P
-Text Label 5800 3640 2    60   ~ 0
-DAUX1_N
-Wire Wire Line
-	5990 5280 5660 5280
+	5990 4540 5990 4340
 $Comp
 L VDD #PWR017
 U 1 1 557C8F8E
-P 4550 4040
-F 0 "#PWR017" H 4550 3890 50  0001 C CNN
-F 1 "VDD" H 4550 4190 50  0000 C CNN
-F 2 "" H 4550 4040 60  0000 C CNN
-F 3 "" H 4550 4040 60  0000 C CNN
-	1    4550 4040
-	0    -1   -1   0   
+P 5090 4140
+F 0 "#PWR017" H 5090 3990 50  0001 C CNN
+F 1 "VDD" H 5090 4290 50  0000 C CNN
+F 2 "" H 5090 4140 60  0000 C CNN
+F 3 "" H 5090 4140 60  0000 C CNN
+	1    5090 4140
+	0    1    1    0   
 $EndComp
 $Comp
 L VDD #PWR018
 U 1 1 557C8FD3
-P 5090 4040
-F 0 "#PWR018" H 5090 3890 50  0001 C CNN
-F 1 "VDD" H 5090 4190 50  0000 C CNN
-F 2 "" H 5090 4040 60  0000 C CNN
-F 3 "" H 5090 4040 60  0000 C CNN
-	1    5090 4040
-	0    1    1    0   
+P 4550 4140
+F 0 "#PWR018" H 4550 3990 50  0001 C CNN
+F 1 "VDD" H 4550 4290 50  0000 C CNN
+F 2 "" H 4550 4140 60  0000 C CNN
+F 3 "" H 4550 4140 60  0000 C CNN
+	1    4550 4140
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4570 4040 4550 4040
+	5070 4140 5090 4140
 Wire Wire Line
-	5070 4040 5090 4040
+	4570 4140 4550 4140
 $Comp
 L GND #PWR019
 U 1 1 557C93CE
-P 4820 4190
-F 0 "#PWR019" H 4820 3940 50  0001 C CNN
-F 1 "GND" H 4820 4040 50  0000 C CNN
-F 2 "" H 4820 4190 60  0000 C CNN
-F 3 "" H 4820 4190 60  0000 C CNN
-	1    4820 4190
-	-1   0    0    -1  
+P 4820 3990
+F 0 "#PWR019" H 4820 3740 50  0001 C CNN
+F 1 "GND" H 4820 3840 50  0000 C CNN
+F 2 "" H 4820 3990 60  0000 C CNN
+F 3 "" H 4820 3990 60  0000 C CNN
+	1    4820 3990
+	1    0    0    1   
 $EndComp
 Wire Wire Line
-	4350 3940 4350 4130
+	5290 4050 5290 4240
 Wire Wire Line
-	5290 4130 5290 3940
+	4350 4050 4350 4240
 Wire Wire Line
-	4350 4130 5290 4130
+	4350 4050 5290 4050
 Wire Wire Line
-	4820 4130 4820 4190
-Connection ~ 4820 4130
+	4820 4050 4820 3990
+Connection ~ 4820 4050
 Wire Wire Line
-	5290 3940 5070 3940
+	4350 4240 4570 4240
 Wire Wire Line
-	4570 3940 4350 3940
+	5290 4240 5070 4240
 Wire Wire Line
-	5390 3840 5070 3840
+	5390 4340 5070 4340
 Connection ~ 5390 3020
 Wire Wire Line
-	4180 3840 4570 3840
+	4180 4340 4570 4340
 Connection ~ 4180 3020
-NoConn ~ 5070 3740
-NoConn ~ 4570 3740
-Text Label 5110 3840 0    60   ~ 0
+Text Label 5140 4340 0    60   ~ 0
 DHPD
-Text Label 4290 3840 0    60   ~ 0
+Text Label 4200 4340 0    60   ~ 0
 CHPD
 Text Label 3480 4340 1    39   ~ 0
 CAUX2_P
@@ -1047,4 +939,193 @@ Text Label 6180 5080 3    39   ~ 0
 DAUX2_N
 Text Label 6170 4340 1    39   ~ 0
 DAUX2_P
+NoConn ~ 4570 4440
+NoConn ~ 5070 4440
+$Comp
+L CONN_02X10 PAUX1
+U 1 1 55800EEB
+P 4820 4590
+F 0 "PAUX1" H 5040 3990 50  0000 C CNN
+F 1 "CONN_02X10" V 4820 4590 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_2x10" H 4820 3390 60  0001 C CNN
+F 3 "" H 4820 3390 60  0000 C CNN
+	1    4820 4590
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4930 4490 4710 4490
+Wire Notes Line
+	4710 4490 4710 5100
+Wire Notes Line
+	4710 5100 4930 5100
+Wire Notes Line
+	4930 5100 4930 4490
+Wire Notes Line
+	4700 4080 4700 4660
+Wire Notes Line
+	4700 4660 4940 4660
+Wire Notes Line
+	4940 4660 4940 4080
+Wire Notes Line
+	4940 4080 4700 4080
+Wire Notes Line
+	4720 5620 4920 5620
+Wire Notes Line
+	4920 5620 4920 6220
+Wire Notes Line
+	4920 6220 4720 6220
+Wire Notes Line
+	4720 6220 4720 5620
+Wire Notes Line
+	4720 5670 4570 5670
+Wire Notes Line
+	4920 5670 5070 5670
+Wire Notes Line
+	4920 5770 5070 5770
+Wire Notes Line
+	4920 5870 5070 5870
+Wire Notes Line
+	4920 5970 5070 5970
+Wire Notes Line
+	4920 6070 5070 6070
+Wire Notes Line
+	4920 6170 5070 6170
+Wire Notes Line
+	4720 5770 4570 5770
+Wire Notes Line
+	4720 5870 4570 5870
+Wire Notes Line
+	4720 5970 4570 5970
+Wire Notes Line
+	4720 6070 4570 6070
+Wire Notes Line
+	4720 6170 4570 6170
+Text Notes 4550 5680 0    60   ~ 0
+VDD
+Text Notes 4920 5680 0    60   ~ 0
+VDD
+Text Notes 4540 5780 0    60   ~ 0
+GND
+Text Notes 4920 5780 0    60   ~ 0
+GND
+Text Notes 4480 5880 0    60   ~ 0
+CHPD
+Text Notes 4920 5880 0    60   ~ 0
+DHPD
+Text Notes 4920 5980 0    60   ~ 0
+NC
+Text Notes 4590 5980 0    60   ~ 0
+NC
+Text Notes 4920 6080 0    60   ~ 0
+DAUX2_P
+Text Notes 4920 6180 0    60   ~ 0
+DAUX2_N
+Text Notes 4320 6080 0    60   ~ 0
+CAUX2_P
+Text Notes 4320 6180 0    60   ~ 0
+CAUX2_N
+Wire Notes Line
+	4720 6310 4920 6310
+Wire Notes Line
+	4920 6310 4920 6910
+Wire Notes Line
+	4920 6910 4720 6910
+Wire Notes Line
+	4720 6910 4720 6310
+Wire Notes Line
+	4710 6760 4560 6760
+Wire Notes Line
+	4930 6760 5080 6760
+Wire Notes Line
+	4930 6860 5080 6860
+Wire Notes Line
+	4920 6560 5070 6560
+Wire Notes Line
+	4920 6660 5070 6660
+Wire Notes Line
+	4920 6360 5070 6360
+Wire Notes Line
+	4920 6460 5070 6460
+Wire Notes Line
+	4710 6860 4560 6860
+Wire Notes Line
+	4720 6560 4570 6560
+Wire Notes Line
+	4720 6660 4570 6660
+Wire Notes Line
+	4720 6360 4570 6360
+Wire Notes Line
+	4720 6460 4570 6460
+Text Notes 4540 6870 0    60   ~ 0
+VDD
+Text Notes 4930 6870 0    60   ~ 0
+VDD
+Text Notes 4530 6770 0    60   ~ 0
+GND
+Text Notes 4920 6770 0    60   ~ 0
+GND
+Text Notes 4920 6370 0    60   ~ 0
+DAUX2_TX_P
+Text Notes 4920 6470 0    60   ~ 0
+DAUX2_TX_N
+Text Notes 4170 6360 0    60   ~ 0
+CAUX2_TX_P
+Text Notes 4170 6460 0    60   ~ 0
+CAUX2_TX_N
+Text Notes 4920 6570 0    60   ~ 0
+DAUX2_RX_P
+Text Notes 4920 6670 0    60   ~ 0
+DAUX2_RX_N
+Text Notes 4160 6560 0    60   ~ 0
+CAUX2_RX_P
+Text Notes 4160 6660 0    60   ~ 0
+CAUX2_RX_N
+Text Notes 4730 5690 0    39   ~ 0
+12
+Text Notes 4870 5690 0    39   ~ 0
+6
+Text Notes 4740 6890 0    39   ~ 0
+6
+Text Notes 4830 6890 0    39   ~ 0
+12
+Text Notes 4740 6780 0    39   ~ 0
+5
+Text Notes 4830 6780 0    39   ~ 0
+11
+Text Notes 4830 6680 0    39   ~ 0
+10
+Text Notes 4860 6580 0    39   ~ 0
+9
+Text Notes 4860 6480 0    39   ~ 0
+8
+Text Notes 4860 6380 0    39   ~ 0
+7
+Text Notes 4740 6680 0    39   ~ 0
+4
+Text Notes 4740 6590 0    39   ~ 0
+3
+Text Notes 4740 6480 0    39   ~ 0
+2
+Text Notes 4740 6380 0    39   ~ 0
+1
+Text Notes 4730 5790 0    39   ~ 0
+11
+Text Notes 4730 5890 0    39   ~ 0
+10
+Text Notes 4740 5990 0    39   ~ 0
+9
+Text Notes 4740 6090 0    39   ~ 0
+8
+Text Notes 4740 6190 0    39   ~ 0
+7
+Text Notes 4870 5790 0    39   ~ 0
+5
+Text Notes 4870 5890 0    39   ~ 0
+4
+Text Notes 4870 5990 0    39   ~ 0
+3
+Text Notes 4870 6090 0    39   ~ 0
+2
+Text Notes 4870 6190 0    39   ~ 0
+1
 $EndSCHEMATC
