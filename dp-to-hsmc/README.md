@@ -17,6 +17,8 @@ The auxiliary lines are mapped to LVDS pairs.
 
 The hot plug and config lines can be mapped to CMOS pins.
 
+See the following
+[Google Spreadsheet for how this maps to development boards](https://docs.google.com/a/mithis.com/spreadsheets/d/11ZIs2P0CqnqOLfFEEVHmpYmOVtex8-fZbPhicQQ8PLs/edit?usp=sharing).
 
 # TODO List
 
