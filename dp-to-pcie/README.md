@@ -25,6 +25,11 @@ this design;
 
  * None - This project is still a work in progress.
 
-The following FPGA boards are being considered for testing;
+The following FPGA boards are being considered for testing and their pin
+information is being tracked in the following 
+[Google Doc](https://docs.google.com/spreadsheets/d/1lWmWJ1-ANhsEsvpYTgBhPL2qnzWC2HEEkqb_Rro3W5U/edit#gid=939622631).
+
+ * [Xilinx Kintex-7 FPGA KC705 Evaluation Kit](http://www.xilinx.com/products/boards-and-kits/ek-k7-kc705-g.html) 
+   (See the boards-kc705.csv file for pin information.)
 
  * Lattice Semiconductor's [ECP5PCIExpressDevKit](http://latticesemi.com/Products/DevelopmentBoardsAndKits/ECP5PCIExpressDevKit.aspx)
