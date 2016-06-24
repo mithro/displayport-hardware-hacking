@@ -10,6 +10,21 @@ The AUX signal is bi-directional, half duplex LVDS signal which operates at
 specifications. It carries information device management and control data such
 as EDID and DPMS standards. In theory it could also carry a USB signal.
 
+# Board Manufacturing
+
+ *  5mil (0.127mm) trace width
+ *  5mil (0.127mm) trace clearance
+
+ * 12 mil (0.3048mm) drill size
+ *  6 mil (0.1524) annular ring
+
+ *  6 mil (0.1524) silkscreen width
+
+This can be meet by;
+ * [Hackvana by requesting the 5mil option](http://docs.oshpark.com/services/)
+ * [OHS Park's Four Layer Boards](http://docs.oshpark.com/services/)
+
+
 # Board connectors
  
 The board breaks out the AUX signals onto two Diligent PMOD compatible headers.
