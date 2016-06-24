@@ -16,7 +16,8 @@ as EDID and DPMS standards. In theory it could also carry a USB signal.
  *  5mil (0.127mm) trace clearance
 
  * 12 mil (0.3048mm) drill size
- *  6 mil (0.1524) annular ring
+ *  6 mil (0.1524mm) annular ring
+ * 24 mil (0.6096mm) via size (6mil+12mil+6mil)
 
  *  6 mil (0.1524) silkscreen width
 
