@@ -22,7 +22,7 @@ as EDID and DPMS standards. In theory it could also carry a USB signal.
  *  6 mil (0.1524) silkscreen width
 
 This can be meet by;
- * [Hackvana by requesting the 5mil option](http://docs.oshpark.com/services/)
+ * [Hackvana by requesting the 5mil option](https://docs.google.com/document/d/1p6FH25ltGpzJQ5_8fbflDukqEKghiEcpuhJpngth2Is/edit)
  * [OHS Park's Four Layer Boards](http://docs.oshpark.com/services/)
 
 
